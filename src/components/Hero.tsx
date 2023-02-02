@@ -19,6 +19,7 @@ const Hero = () => {
         maxWidth: '100vw',
         minHeight: '100vh',
         position: 'relative',
+        scrollSnapAlign: 'start',
       }}
     >
       <img

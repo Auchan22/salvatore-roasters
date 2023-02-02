@@ -70,3 +70,21 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/*Animacion ScrollArrow*/
+
+.scrollArrow {
+  animation: floating 2s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(20%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}

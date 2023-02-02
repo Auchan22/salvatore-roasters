@@ -32,11 +32,11 @@ const Navbar = () => {
   return (
     <Flex
       minWidth='100vw'
-      bg='red'
+      bg='#fff'
       minHeight='80px'
       position='fixed'
       alignItems='center'
-      zIndex='100'
+      zIndex='10000'
       justifyContent='space-around'
       ref={navRef}
       id='#navbar'
